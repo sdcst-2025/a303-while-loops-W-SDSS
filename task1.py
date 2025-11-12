@@ -25,3 +25,28 @@ Example:
 10
 ...
 """
+
+num = ""
+
+while num != "20":
+    num = print("2")
+    if num != "20":
+        num = print("4")
+    if num != "20":
+        num = print("6")
+    if num != "20":
+        num = print("8")
+    if num != "20":
+        num = print("10")
+    if num != "20":
+        num = print("12")
+    if num != "20":
+        num = print("14")
+    if num != "20":
+        num = print("16")
+    if num != "20":
+        num = print("18")
+    if num != "20":
+        num = print("20")
+    else:
+        print(num)

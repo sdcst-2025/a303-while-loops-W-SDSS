@@ -19,3 +19,17 @@ Enter number:4
 That is an even integer
 
 """
+import math
+
+num = ""
+incorrectnum = True
+
+while incorrectnum == True:
+    num = float(input("Enter number: "))
+    even = num%2
+    if even != 0:
+        print("That is not an even integer")
+    if even == 0:
+        print("That is an even integer")
+    else:
+        incorrectnum = False

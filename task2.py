@@ -29,17 +29,15 @@ Access granted
 
 
 """
-user = admin
-pass = 12345
+user = "admin"
+pas = "12345"
 
-correct = True
-
-while correct = True:
-    user = str(input("Enter username: "))
-    pass = str(input("Enter password: "))
-    if user = False or pass = False:
-        print("Access denied")
-    if user = True and pass = True:
+while True:
+    username = input("Enter username: ")
+    password = input("Enter password: ")
+    if username == user and password == pas:
         print("Access granted")
-else:
-    print("Access denied")
+    else:
+        print("Access denied")
+
+#akusesu seikou sitemo yu-za-be-mu kikarerunndakedo

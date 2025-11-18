@@ -33,3 +33,5 @@ while incorrectnum == True:
         print("That is an even integer")
     else:
         incorrectnum = False
+
+#even number ni naxtutaatoni tudukukedo odd number no tokini tudukanai

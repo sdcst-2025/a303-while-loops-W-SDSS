@@ -17,6 +17,8 @@ example:
 Enter a number: 4
 4 8 12 16 20 24 28 32 36 40 44 48
 """
-
-num = input("Enter a number: ")
-
+try:
+  num = input("Enter a number: ")
+except ValueError:
+  print("That is not a valid integer")
+else:

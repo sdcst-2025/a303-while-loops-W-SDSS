@@ -33,14 +33,17 @@ Too many failed attempts. Access denied.
 
 correctuser = "admin"
 correctpass = "12345"
+maxatt = 3
+att = 0
 
-while True:
+while att < maxatt:
     user = input("Enter username: ")
     pas = input("Enter password: ")
     if user == correctuser and pas == correctpass:
         print("Access granted")
-    if user != correctuser or pas != correctpass:
-        print("Access granted")
-
-
-print("Too many failed attempts. Access denied.")
+        break
+    else:
+        print("Access denied")
+        att += 1
+else:
+    print("Too many failed attempts. Access denied.")

@@ -17,8 +17,21 @@ example:
 Enter a number: 4
 4 8 12 16 20 24 28 32 36 40 44 48
 """
+import math
+
+mul = 0
+maxmul = 12
+
 try:
-  num = input("Enter a number: ")
+  num = int(input("Enter a number: "))
 except ValueError:
   print("That is not a valid integer")
+
+while mul <= maxmul:
+  number = num**2
+  print(f"{number} ", end='')
+  mul += 1
 else:
+  exit()
+
+#4 wo *2 wo maikai sinakyaikenai

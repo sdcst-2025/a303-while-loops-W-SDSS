@@ -28,11 +28,8 @@ while incorrectnum:
         num = float(input("Enter number: "))
     except ValueError:
         print("That is not a valid number")
-        continue
     if num % 2 == 0:
         print("That is an even integer")
         incorrectnum = False
     else:
         print("That is not an even integer")
-
-#even number ni naxtutaatoni tudukukedo odd number no tokini tudukanai

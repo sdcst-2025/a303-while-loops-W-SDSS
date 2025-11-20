@@ -40,5 +40,3 @@ while True:
         break
     else:
         print("Access denied")
-
-#akusesu seikou sitemo yu-za-be-mu kikarerunndakedo

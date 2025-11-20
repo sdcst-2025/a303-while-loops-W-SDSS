@@ -37,6 +37,7 @@ while True:
     password = input("Enter password: ")
     if username == user and password == pas:
         print("Access granted")
+        break
     else:
         print("Access denied")
 

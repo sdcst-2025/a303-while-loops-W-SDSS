@@ -21,17 +21,18 @@ That is an even integer
 """
 import math
 
-num = ""
 incorrectnum = True
 
-while incorrectnum == True:
-    num = float(input("Enter number: "))
-    even = num%2
-    if even != 0:
-        print("That is not an even integer")
-    if even == 0:
+while incorrectnum:
+    try:
+        num = float(input("Enter number: "))
+    except ValueError:
+        print("That is not a valid number")
+        continue
+    if num % 2 == 0:
         print("That is an even integer")
-    else:
         incorrectnum = False
+    else:
+        print("That is not an even integer")
 
 #even number ni naxtutaatoni tudukukedo odd number no tokini tudukanai

@@ -14,3 +14,11 @@ Example:
 1 1 2 3 5 ...
 """
 
+a = 1
+b = 1
+
+while a <= 100:
+    print(a, end=' ')
+    next = a + b
+    a = b
+    b = next

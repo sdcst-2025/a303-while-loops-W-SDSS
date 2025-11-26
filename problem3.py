@@ -19,6 +19,5 @@ b = 1
 
 while a <= 100:
     print(a, end=' ')
-    next = a + b
     a = b
-    b = next
+    b = a + b

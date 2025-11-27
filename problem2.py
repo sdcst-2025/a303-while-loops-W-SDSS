@@ -17,11 +17,9 @@ example:
 Enter a number: 4
 4 8 12 16 20 24 28 32 36 40 44 48
 """
-num - int(input("Enter a number: "))
+num = int(input("Enter a number: "))
 
 count = 1
 while count <= 12:
-  print(number*count, end='')
+  print(num*count, end=' ')
   count += 1
-
-#4 wo *2 wo maikai sinakyaikenai
